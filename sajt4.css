@@ -1,0 +1,91 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+nav {
+    background-color: #A5A2A2;
+    padding: 15px;
+    text-align: left;
+    position: relative;
+}
+
+nav img {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 10px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    margin: 0 10px;
+    transition: background-color 0.3s;
+    display: inline-block;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    background-color: #777;
+}
+
+.divv {
+    width: 100%;
+    height: 450px;
+    background-color: #D9D9D5;
+}
+
+
+p,
+h1 {
+    color: white;
+}
+
+
+input {
+    padding: 10px;
+    margin: 10px;
+    font-size: 16px;
+    width: 60px;
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+button:disabled {
+    background-color: #d3d3d3;
+    cursor: not-allowed;
+}
+
+#message {
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 18px;
+    color: #333;
+}
+
+#attempts {
+    margin-top: 10px;
+    color: white;
+}
+
+.bojan {
+    background-color: #A5A2A2;
+    text-align: center;
+    margin-top: 300px;
+}
